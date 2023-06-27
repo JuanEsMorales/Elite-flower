@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: rgb(247, 239, 239);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* header */
+#header{
+    z-index: 1200;
+}
+.logoColtrack{
+    width: 60px;
+    margin-left: -2rem;
+}
+/* Logo EliteFlowers */
+.logoElite{
+    height: 55px;
+    width: 400px;
+}
+/* icon menu desplegable */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");    
+}
+/*Todo el contenido  */
+.All{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+/* Logo */
+.main-menu-logo{
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 101%;
+    background: #03082f;
+}
+/*Links navbar  */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+    padding: 0px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.navbar li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+}
+.navbar-brand{
+    margin-left: -100px;
+}
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a::before,
+.navbar a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    color: #22afe6;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+}
+.navbar a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    color: #22afe6;
+    border-top: 3px solid #22afe6;
+    border-right: 3px solid #22afe6;
+    transform: translate(-100%, 50%);
+}
+.navbar a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    color: #22afe6;
+    border-bottom: 3px solid #22afe6;
+    border-left: 3px solid #22afe6;
+    transform: translate(100%, -50%)
+}
+.navbar a:hover:before,
+.navbar a:hover:after {
+    transform: translate(0,0);
+    opacity: 1;
+}
+.nav-item a{
+    display: block;
+    font-size: 30px;
+    padding: 0px 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+#vehiculos{
+    margin-left: 320px;
+}
+#reportes{
+    color: #22afe6;
+    margin-top: 8px;
+}
+#vehiculos,#logout{
+    margin-top: 8px;
+}
+#reportes:hover{
+    color: #22afe6;
+}
+#logout:hover{
+    color: #22afe6;
+}
+/*Datos*/
+.datos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    min-height: 650px;
+    margin-top: 85px;
+    width: 100%;
+}
+#iframe{
+    width: 100% auto;
+    grid-row-start: 1;
+}
+/*Pie de pagina*/
+.footer{
+    background-color: #03082f;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 15px;
+}
+@media screen and (max-width: 900px){
+    .logoElite{
+        width:270px;
+        height: 60px;
+        padding-top: 0;
+        margin-left: 80px;
+    }
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: white;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    #vehiculos{
+        margin-left: 0px;
+    }
+    .datos{
+        width: 100%;
+        height: 750px;
+    }
+    #iframe{
+        width: 100%;
+        height: 750px;
+    }
+}
+@media screen and (max-width: 480px){
+    .logoElite{
+        width:258px;
+        height: 60px;
+        padding-top: 0;
+        margin-left: 0px;
+    }
+    #vehiculos, #reportes, #logout{
+        margin:0px;
+        padding-left: 15px;
+        width: 140px;
+    }
+    .navbar-brand{
+        margin: 0px;
+    }
+    .main-menu-logo{
+        position: fixed;
+        top:0;
+        z-index: 100;
+        width: 100%;
+        background: #03082f;
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg  xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: white;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    #datos{
+        width: 100% auto;
+    }
+    #iframe{
+        width: 380px;
+    }
+    .footer{
+        font-size: 15px;
+        text-align: center;
+        height: 55px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}

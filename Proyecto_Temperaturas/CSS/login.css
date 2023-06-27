@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.body{
+	background-image:url(../img/login-image.png);
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	
+}
+.logo{
+	width: 70%
+}
+.Icon{
+	margin-left: 20%;
+}
+/* Contenedor Inputs */
+#Contenedor{
+	width: 380px;
+	margin: 5% 15% ;
+	height: 380px;
+	padding: 20px 12px 0px 12px;
+}
+/* Input Usuario */
+#email{
+	width: 320px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: none;
+	color: black;
+	padding: 2px;
+	font-size: 20px;
+	margin-left: 5px;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+}
+#email::placeholder{
+	color: black;
+}
+#email:focus{
+	background-color: rgb(212, 203, 203);
+}
+#email:hover{
+	background-color: rgb(212, 203, 203);
+}
+/* Input Contraseña */
+#password{
+	width: 290px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: none;
+	color: black;
+	padding: 2px;
+	font-size: 20px;
+	margin-left: 5px;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+}
+#password::placeholder{
+	color: black;
+}
+#password:focus{
+	background-color: rgb(212, 203, 203);
+}
+#password:hover{
+	background-color: rgb(212, 203, 203);
+}
+/* Button Login */
+#IngresoLog{
+	background-color: #fac103;
+	border: 0px;
+	width: 355px;
+	height:38px;
+	color: black;
+	margin-bottom: 10px;
+	transition: .5s;
+}
+#IngresoLog:hover{
+	border-radius: 0px;
+}
+/* Icons */
+i{
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+/* Imagen marcador */
+.img{
+	display: none;
+}
+@media screen and (max-width: 900px){
+	.body{
+		background-image:url(../img/login-image.png);
+		background-attachment: fixed;
+		background-size: 100% 60%;
+		background-repeat: no-repeat; 
+	}
+	#Contenedor{
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.body{
+		background-image: none;
+	}
+	/* Contenedor Inputs */
+	#Contenedor{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		/* margin: 50px 20px 0px 0px; */
+		margin: 50px 0px 0px 0px;
+		width: 100%;
+		background-color: white;
+		height: 340px;
+	}
+	.user{
+		width: 8%;
+		margin-right: 0px;
+	}
+	/* Input Usuario */
+	#email{
+		width: 90%;
+		margin-left: 0px;
+	}
+	/* Input Contraseña */
+	#password{
+		width: 80%;
+	}
+	/* Button Login */
+	#IngresoLog{
+		background-color: #fac103;
+		width: 100%;
+		height: 38px;
+		color: black;
+	} 
+	/* Imagen Marcador */
+	.imagen{
+		width: 100%;
+		height: 280px;
+		background-image:url(/img/login-image.png);
+		background-size: 100% 280px;
+		background-repeat: no-repeat;
+		margin: 10px 0px 0px 0px;
+		padding: 0;
+	}
+}

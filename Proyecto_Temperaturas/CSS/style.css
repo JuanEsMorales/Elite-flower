@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    background-color: rgb(247, 239, 239);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* banner images */
+.banner{
+	width: 100%;
+	height: 500px;
+    margin-top: 65px;
+    background-size: 100% 101%;
+	background-repeat: no-repeat;
+}
+.slider2{
+    display: none;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* todo el contenido */
+.All{
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+.main-menu-logo{
+	position: fixed;
+	top:0;
+	z-index: 100;
+	width: 100%;
+    background: #03082f;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+    font-size: 28px;
+}
+.nav-item a{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 20px;
+	color: white;
+    text-align: center;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    border: none;
+}
+/* items-banner */
+.carousel-control-prev-icon {
+	width: 40px;
+	height: 50px;
+	background-image:url(../img/arrow-left-darkblue.png);
+    margin-right: 100px;
+    top: 40px;
+    opacity: 1;
+    position: relative;
+}
+.carousel-control-next-icon{
+	width: 50px;
+	height: 50px;
+	background-image:url(../img/arrow-right-darkblue.png);
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    opacity: 1;
+}
+.carousel-indicators li {
+	height: 5px;
+	background-color: #03082f;
+}
+/* content-text */
+p.uno {
+    line-height: 25px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px 10px 15px 20px;
+}
+.contenido{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #03082f;
+    color: #fff;
+    width: 100%;
+    height: 320px;
+}
+/* columns-text */
+.columna1{
+    margin: 20px 10px 30px 15px;
+    width: 33.3%;
+    height: 300px;
+    text-align: center;
+    position: left;
+    float:left;
+    padding-top: 10px;
+}
+.columna2{
+    margin: 20px 10px 30px 0px;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    position: left;
+    float: left;
+    padding-top: 10px;
+}
+.columna3{
+    margin: 20px 5px 10px 0px;
+    width: 33.3%;
+    height: 300px;
+    text-align: center;
+    position: left;
+    float: left;
+    padding-top: 10px;
+}
+/* title-colums */
+h3.baja{
+    color: #65a7dd;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h3.media{
+    background: #65a7dd; 
+    background: -webkit-linear-gradient(to left, #65a7dd , #a44040 ); 
+    background: linear-gradient(to right, #65a7dd 40%, #a44040 60%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    margin-left: 60px;
+}
+h3.alta{
+    color: #a44040;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/* image-columns */
+.image{
+    width: 130px;
+    height: 120px;
+}
+/* Map */
+#map{
+    margin: 15px 0px 15px 15px;
+    height: 380px;
+    position: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+    border: 1px solid #03082f;
+    background-color: #fff;
+}
+/* Support */
+.soporte{
+    background: #03082f;
+    color: #fff;
+    margin: 15px;
+    height: 380px;
+    position: left;
+    float:right;
+    grid-column-start: 3;
+    grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+/* Datos de contacto */
+h2 {
+	color: white;
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 20px;
+	margin-bottom: 0px;
+}
+/* p-soporte */
+p.dos {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin: 15px 10px 10px 20px;
+}
+/* table-contact */
+table {     
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 30px;
+    width: 240px;
+    text-align: left;
+    height: 195px;
+}
+i{
+    color: white;
+    font-size: 22px;
+}
+td {
+    padding: 4px;   
+    padding-top: 0px ;  
+    font-size: 18px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.td1{
+    width: 40px;
+    padding-right: 10px;
+}
+/*  Pie de pagina  */
+.footer{
+    background-color: #03082f;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    grid-row-start: 4;
+    grid-row-end:5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+@media screen and (max-width: 900px){
+    .main-menu-logo{
+        z-index: 10000;
+    }
+    .carousel-control-prev-icon {
+        width: 4000px;
+        height: 50px;
+        background-image:url(/img/arrow-left-darkblue.png);
+        top: 40px;
+        opacity: 1;
+        position: relative;
+        border: 2px solid;
+    }
+    .carousel-control-next-icon{
+        width: 500px;
+        height: 50px;
+        background-image:url(/img/arrow-right-darkblue.png);
+        margin-left: 100px;
+        top: 40px;
+        right: 15px;
+        position: relative;
+        opacity: 1;
+    }
+    .contenido{
+        height: 100%;
+    }
+    p.uno{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p.dos{
+        font-size: 16px;
+    }
+    h3.baja, h3.alta{
+        font-size: 32px;
+    }
+    .columna1{
+        width: 32%;
+        height: 90%;    
+    }
+    .columna2{
+        width: 30%;
+        height: 90%;    
+    }
+    .columna3{
+        width: 32%;
+        height: 90%;    
+    }
+    h3.media{
+        margin-left: 0;
+        font-size: 32px;
+    }
+    #map{
+        height: 410px;
+    }
+    .soporte{
+        height: 410px;
+    }
+    td{
+        font-size: 15px;
+        padding: 0px;
+    }
+} 
+
+@media all and (max-width: 480px){
+    /* logo */
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 220px;
+        margin: 0;
+    }
+    .main-menu-logo{
+        position: fixed;
+        top:0;
+        z-index: 2000;
+        width: 100%;
+        background: #03082f;
+        font-family: 'Raleway', sans-serif;
+    }
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: white;
+        font-size: 26px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg  xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        border: 0;
+    }
+    /* Banner */
+    .slider1{
+        display: none;
+    }
+    .slider2{
+        display: unset;
+        width: 100%;
+        height: 350px;
+    }
+    .banner{
+        height: 300px;
+    }
+    /* items-banner */
+    .carousel-control-prev-icon{
+	    width: 40px;
+	    height: 40px;
+        margin-top: 80px;
+    }
+    .carousel-control-next-icon{
+    	width: 40px;
+	    height: 40px;
+        margin-right: 10px;
+        margin-top: 80px;
+    }   
+    /* div-columnas */
+    .contenido{
+        width: 100%;
+        height: 900px;
+    }
+    .columna1{
+        text-align: center; 
+        width: 92%;
+        height: 280px;
+        margin: 15px 4% 0px 4%;
+        padding-top: 8px;
+    }
+    .columna2{
+        text-align: center;
+        width: 92%;
+        height: 290px;
+        margin: 0px 4% 0px 4%;
+        padding-top: 8px;
+    } 
+    h3.media{
+        font-size: 34px;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .columna3{
+        text-align: center;
+        width: 92%;
+        height: 280px;
+        margin: 0px 4% 0px 4%;
+        padding-top: 8px;
+    }
+    /* p-columnas */
+    p.uno{
+        font-size: 15px;
+        margin: 20px 10px 5px 20px;
+    }
+    /* p-soporte */
+    p.dos{
+        font-size: 14px;
+    }
+    td {
+        padding: 3px;     
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    #map{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-bottom: 0px;
+        height: 350px;
+        margin: 15px 15px 0px 15px;
+        width: 92%;
+    }
+    .soporte{
+        grid-column-start: 1;
+        grid-column-end:5;
+        min-height: 420px;
+        margin-top: 380px;
+    }
+   .footer{
+        font-size: 15px;
+        height: 55px;
+    }
+}
