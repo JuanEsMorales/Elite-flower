@@ -12,23 +12,12 @@
 //     console.log('sign up')
 //  })
 // })
-// Sign-In
-const signinForm = document.querySelector('#signup-form');
-signinForm.addEventListener('submit', (e)=>{
-    e.preventDefault();
-    const email = document.querySelector('#email').value;
-    const pass = document.querySelector('#password').value;
-    auth
-    .signInWithEmailAndPassword(email,pass)
-    .then(userCredential =>{
-        signinForm.reset();
-        location.replace("vehiculos.html")
-        console.log('sign in')
-    })
-    .catch((error) => {
-        alert("Usuario o contraseña no validos")
-    });
-});
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"
+import { auth } from "./firebase.js";
+import './signInForm.js'
+
+
+
 // View Password
 let password = document.getElementById('password');
 let viewPassword = document.getElementById('view');
