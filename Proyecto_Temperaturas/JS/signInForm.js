@@ -22,9 +22,9 @@ signInForm.addEventListener('submit', async (e) => {
 
     } catch (error) {
         if (error.code === "auth/wrong-password") {
-            showMessage('Wrong password', "error")
+            showMessage('Contraseña incorrecta', "error")
         } else if (error.code === "auth/user-not-found"){
-            showMessage('User not found', "error")
+            showMessage('Usuario no encontrado', "error")
         } else{
             showMessage(error.message, "error")
         }
