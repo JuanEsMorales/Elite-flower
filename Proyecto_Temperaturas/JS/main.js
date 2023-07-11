@@ -18,8 +18,6 @@ import './signInForm.js'
 
 
 
-
-
 // View Password
 let password = document.getElementById('password');
 let viewPassword = document.getElementById('view');
