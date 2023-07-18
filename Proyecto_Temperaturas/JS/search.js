@@ -9,7 +9,7 @@ function authenticateUser(user, password){
 function CallWebAPI(){    		
 	var request = new XMLHttpRequest();
 	var autenticate = authenticateUser(userName, passWord);		
-	request.open("get", "https://gps.coltrack.com/gps/api.jsp", false);	
+	request.open("get", "http://127.0.0.1:5500/gps/api.jsp", false);	
 	request.setRequestHeader("Authorization", authenticateUser(userName, passWord));  	
 	request.send();   
 	console.log("Loaded data");    
